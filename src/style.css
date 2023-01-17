@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #F2F4F5;
+}
+
+.cd-cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background: #000;
+}
+
+.cd-cabecalho-nome {
+    width: 50%;
+    height: 30px;
+    color: #2BF2AB;
+}
+
+.cd-cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cd-cabecalho-menu-item {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #F2F4F5;
+}

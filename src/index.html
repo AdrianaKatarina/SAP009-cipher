@@ -1,14 +1,95 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Uma plataforma para você que busca privacidade na sua vida, principalmente nesse meio digital, onde muitas vezes precisamos criar contas com senhas fortes e difícil memorizarzação.">
+  <title>Codifique - Cifrar e decrifrar senhas e mensagens de texto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="cd-cabecalho">
+    <h1 class="cd-cabecalho-nome">codifique</h1>
+    <nav class="cd-cabecalho-menu">
+      <a class="cd-cabecalho-menu-item">Home</a>
+      <a class="cd-cabecalho-menu-item">Sobre</a>
+      <a class="cd-cabecalho-menu-item">Regras e Funcionalidades</a>
+      <a class="cd-cabecalho-menu-item">Contato</a>
+    </nav>
+
+  </header>
+
+  <main class="cd-conteudo">
+    <section class="cd-conteudo-principal">
+      <div class="cd-conteudo-principal-acolhida">
+        <h1 class="cd-conteudo-prinicipal-acolhida-titulo">Olá!!</h1>
+        <h2 class="cd-conteudo-prinicipal-acolhida-subtitulo">Bem-vindes!</h2>
+        <h2 class="cd-conteudo-prinicipal-acolhida-subtitulo">Bem-vindas!</h2>
+        <h2 class="cd-conteudo-prinicipal-acolhida-subtitulo">Bem-vindos!</h2>
+      </div>
+      <p class="cd-conteudo-principal-paragrafo">Uma plataforma para você que busca privacidade na sua vida,
+        prinicipalmente nesse meio digital, onde muitas
+        vezes precisamos de contas com senhas mais fortes e difíceis de memorizar.</p>
+    </section>
+
+    <section class="cd-conteudo-secundario">
+      <div class="cd-conteudo-secundario-bloco">
+        <p class="cd-conteudo-secundario-bloco-paragrafo">Atualmente, com o avanço da tecnologia, temos muitas vezes,
+          criar uma série de contas e senhas. </p>
+        <p class="cd-conteudo-secundario-bloco-paragrafo">Para anotar essas informações muitos recorrem a agenda física
+          ou algum arquivo no dispositivo digital.</p>
+        <p class="cd-conteudo-secundario-bloco-paragrafo">Mas será que colocando essas informações estão corretamente
+          seguras? Qualquer um que conseguir acessar, terão
+          seus dados e assim podem efetuar logins sem permissão.</p>
+        <p class="cd-conteudo-secundario-bloco-paragrafo">Pensando nisso, a plataforma codifique será capaz de ajudar na
+          forma em que você guarda seus dados pessoais.
+        </p>
+        <p class="cd-conteudo-secundario-bloco-paragrafo">Um jeito de armarzenar suas informações de forma mais segura
+          em qualquer lugar, seja algo físico, como
+          agendas
+          ou de forma digital.</p>
+      </div>
+      <img class="cd-conteudo-secundario-imagem" src="section2.svg"
+        alt="Imagem de um notebook aberto com bloco de notas e celular ao lado">
+    </section>
+
+    <section class="cd-conteudo-terciario">
+      <h3 class="cd-conteudo-terciario-titulo">REGRAS DE FUNCIONALIDADES</h3>
+      <h4 class="cd-conteudo-terciario-subtitulo">Atualmente, temos algumas regras de funcionalidades:</h4>
+      <p class="cd-conteudo-terciario-paragrafo">-> No campo de texto, colocar apenas letras maiúsculas</p>
+      <p class="cd-conteudo-terciario-paragrafo">-> Informe um deslocamento, esse número precisa ser inteiro e positivo
+      </p>
+      <p class="cd-conteudo-terciario-paragrafo">-> Aperte o botão com a opção de encriptar</p>
+      <p class="cd-conteudo-terciario-paragrafo">-> Caso queira voltar, só apertar no botão decriptar</p>
+    </section>
+
+    <section class="cd-aplicativo">
+
+      <div class="cd-aplicativo-form">
+
+        <p class="cd-aplicativo-form-mensagem"><label for="mensagem">Digite no campo abaixo:</label></p>
+        <textarea class="cd-aplicativo-form-mensagem-campo" id="mensagem" name="mensagem" rows="10"
+          cols="50"></textarea>
+        <br />
+
+        <label class="cd-aplicativo-form-desloca" for="desloca">Deslocamento: </label>
+        <textarea class="cd-aplicativo-form-desloca-campo" id="desloca" name="desloca" rows="1" cols="4"></textarea>
+
+        <button class="cd-aplicativo-form-encriptar">ENCRIPTAR</button>
+        <button class="cd-aplicativo-form-decriptar">DECRIPTAR</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p class="rodape-descricao">Criado em AK em 2023</p>
+  </footer>
+
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
