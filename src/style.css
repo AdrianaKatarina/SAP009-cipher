@@ -6,11 +6,13 @@
 }
 
 body {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 100%;
     background: #F2F4F5;
+    color: #313030;
 }
 
-.cd-cabecalho {
+header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,18 +21,184 @@ body {
     background: #000;
 }
 
-.cd-cabecalho-nome {
+.cabecalho-nome {
     width: 50%;
     height: 30px;
     color: #2BF2AB;
 }
 
-.cd-cabecalho-menu {
+nav {
     display: flex;
     gap: 32px;
 }
 
-.cd-cabecalho-menu-item {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+a {
+    font-family: Arial, Helvetica, sans-serif;
     color: #F2F4F5;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.p-div {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.p-d-titulo {
+    font-weight: 800;
+    font-size: 64px;
+}
+
+.p-d-subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.p-d-botao {
+    width: 120px;
+    height: 40px;
+    border-style: solid;
+    border-color: #2BF2AB;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    font-size: 15px;
+    color: #2BF2AB;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2BF2AB;
+    color: #313030;
+}
+
+.p-paragrafo {
+    background-color: #000;
+    border-style: solid;
+    border-color: #000;
+    font-weight: 300;
+    font-size: 32px;
+    color: #2BF2AB;
+    padding: 10px;
+}
+
+.conteudo-secundario {
+    background-color: #2BF2AB;
+    border-style: solid;
+    border-color: #2BF2AB;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.conteudo-s-bloco {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-s-b-paragrafo {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+img {
+    height: 370px;
+}
+
+.conteudo-terciario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    padding: 20px;
+}
+
+.conteudo-t-titulo {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.conteudo-t-subtitulo {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.conteudo-t-paragrafo {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.aplicativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    background-color: #2BF2AB;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.mensagem {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+textarea {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+input {
+    text-align: center;
+}
+
+.chave {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.button {
+    width: 80px;
+    height: 30px;
+    border-style: solid;
+    border-color: #313030;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #313030;
+    cursor: pointer;
+}
+
+.rodape {
+    text-align: center;
+    padding: 50px;
+    background: #000;
+    color: #2BF2AB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
 }
