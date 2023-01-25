@@ -78,14 +78,14 @@
 
         <p class="mensagem"><label for="mensagem">Codifique no campo abaixo:</label></p>
         <textarea placeholder="Digite aqui para encriptar ou decriptar sua senha." id="mensagem" name="mensagem"
-          rows="10" cols="50"></textarea>
+          rows="10" cols="50" required></textarea>
         <br>
 
-        <label class="chave" for="chave">Deslocamento: </label>
-        <input placeholder="0" type="number" id="chave" name="chave" min="1" max="26" value="deslocamento">
+        <label for="chave" class="chave">Deslocamento: </label>
+        <input placeholder="0" type="number" id="chave" name="chave" min="0" value="" required>
 
-        <button class="button">ENCRIPTAR</button>
-        <button class="button">DECRIPTAR</button>
+        <button type="button" class="encriptar">ENCRIPTAR</button>
+        <button type="button" class="decriptar">DECRIPTAR</button>
 
       </form>
     </section>

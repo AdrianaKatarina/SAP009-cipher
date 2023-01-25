@@ -169,6 +169,7 @@ textarea {
     margin-top: 20px;
     padding: 20px;
     font-size: 16px;
+    resize: none;
 }
 
 input {
@@ -180,7 +181,8 @@ input {
     font-size: 20px;
 }
 
-.button {
+.encriptar,
+.decriptar {
     width: 80px;
     height: 30px;
     border-style: solid;
