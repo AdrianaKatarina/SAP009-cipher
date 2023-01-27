@@ -11,17 +11,17 @@ function encode(offset, string) {
   const chave = parseInt(offset);
   //console.log(senha);
   //console.log(typeof(chave));
-
+  //let mensagem = document.getElementById("mensagem").value
   let senhaString = "";
   for (let i = 0; senha.length > i; i++) {    
     //console.log("char", string.charCodeAt(i));
-    const tabela = (senha.charCodeAt(i) + 65 - chave) % 26 + 65;    
+    const tabela = (senha.charCodeAt(i) - 65 + chave) % 26 + 65;    
     //console.log("calculo", tabela);        
     const letra = String.fromCharCode(tabela);
     //console.log("for", letra)    
     senhaString += letra;
   }
-  document.getElementById("mensagem").value = senhaString;  
+  return senhaString;  
 }
 
 //Função Decriptar
@@ -35,11 +35,11 @@ function decode(offset, string) {
   let senhaString = "";
   for (let i = 0; senha.length > i; i++) {
     //console.log("char", string.charCodeAt(i));
-    const tabela = (senha.charCodeAt(i) - 65 + chave) % 26 + 65;
+    const tabela = (senha.charCodeAt(i) + 65 - chave) % 26 + 65;
     //console.log("calculo", tabela);
     const letra = String.fromCharCode(tabela);
     //console.log("for", letra)
     senhaString += letra;
   }
-  document.getElementById("mensagem").value = senhaString;
+  return senhaString;
 }
