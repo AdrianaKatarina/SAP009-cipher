@@ -36,8 +36,7 @@ function decode(offset, string) {
   const senha = string.toUpperCase();
   const chave = parseInt(offset);
   //console.log(senha);
-  //console.log(typeof(chave));  
-
+  //console.log(typeof(chave)); 
   let senhaString = "";
   for (let i = 0; senha.length > i; i++) {
     //console.log("char", string.charCodeAt(i));
