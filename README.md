@@ -5,7 +5,7 @@
 * [1. Prefácio](#1-prefácio)
 * [2. Sobre o projeto](#2-sobre-o-projeto)
 * [3. Considerações gerais](#3-considerações-gerais)
-* [4. Como usar?](#4-como-usar?)
+* [4. Como usar?](#4-como-usar)
 * [5. Tecmologias utilizadas](#5-tecnologias-utilizadas)
 * [6. Implementações Futuras](#6-implementações-futuras)
 ***
@@ -41,13 +41,9 @@ https://adrianakatarina.github.io/SAP009-cipher/
 
 Codifique foi a primeira aplicação web desenvolvida durante o bootcamp da Laboratória.
 
-### Protótipo
-
-![Protótipo](https://github.com/AdrianaKatarina/SAP009-cipher/blob/main/prototipo.png)
-
 Esta aplicação foi pensado num ambiente pessoal, para usuários que desejam guardar a privacidade para si. E principalmente, para pessoas que esquecem com facilidade, senhas de email, rede social ou diversas outras contas. Onde muitas vezes, acabam anotando em um caderno, agenda ou até mesmo em dispositivos digitais, as informações de senhas sem nenhuma restrição.
 
-Então pensando nisso, foi desenvolvido uma aplicação web que permite `encriptar` ou `decriptar` e indicando logo abaixo do campo de texto, um _deslocamento_ para realizar completamente a função escolhida.
+Então pensando nisso, foi desenvolvido uma aplicação web que permite ***encriptar*** ou ***decriptar*** e indicando logo abaixo do campo de texto, um _deslocamento_ para realizar completamente a função escolhida.
 
 **Em exemplo prático:**
 * Para quem gosta de anotar suas informações pessoais e importantes em uma agenda     física.
@@ -60,15 +56,11 @@ Então pensando nisso, foi desenvolvido uma aplicação web que permite `encript
 * Foi trabalhado com base em um boilerplate, estrutura básica de um projeto em        diferentes pastas(através de módulos em JS).
 * Para diminuição de problemas futuros, o projeto foi passado por testes unitários.
 
-![Testes unitários](https://github.com/AdrianaKatarina/SAP009-cipher/blob/main/testesunitarios.png)
+## 4. Layout e Como usar?
 
-## 4. Como usar?
+Logo na Página inicial terá algumas exlicações sobre o **codifique** e como utilizá-lo através das regras de funcionalidades.
 
 ![Página Inicial](https://github.com/AdrianaKatarina/SAP009-cipher/blob/main/paginainicial.png)
-
-Logo na Página inicial terá algumas exlicações sobre o `codifique` e como utilizá-lo através das regras de funcionalidades. Logo abaixo terá:
-
-![Página Projeto](https://github.com/AdrianaKatarina/SAP009-cipher/blob/main/paginaprojeto.png)
 
 **Uma interface que permite ao usuário:**
 
@@ -90,6 +82,8 @@ Logo na Página inicial terá algumas exlicações sobre o `codifique` e como ut
     (inteiro positivo).
   - Clique no botão decriptar.
   - Veja o resultado da sua senha decriptada.
+
+![Página Projeto](https://github.com/AdrianaKatarina/SAP009-cipher/blob/main/paginaprojeto.png)
 
 ## 5. Tecnologias utilizadas
 
