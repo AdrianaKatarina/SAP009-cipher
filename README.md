@@ -60,11 +60,11 @@ Então pensando nisso, foi desenvolvido uma aplicação web que permite `encript
 * Foi trabalhado com base em um boilerplate, estrutura básica de um projeto em        diferentes pastas(através de módulos em JS).
 * Para diminuição de problemas futuros, o projeto foi passado por testes unitários.
 
-![Testes unitários](https://github.com/AdrianaKatarina/SAP009-cipher/blob/main/testesunit%C3%A1rios.png)
+![Testes unitários](https://github.com/AdrianaKatarina/SAP009-cipher/blob/main/testesunitarios.png)
 
 ## 4. Como usar?
 
-![Página Inicial](https://github.com/AdrianaKatarina/SAP009-cipher/blob/main/p%C3%A1ginainicial.png)
+![Página Inicial](https://github.com/AdrianaKatarina/SAP009-cipher/blob/main/paginainicial.png)
 
 Logo na Página inicial terá algumas exlicações sobre o `codifique` e como utilizá-lo através das regras de funcionalidades. Logo abaixo terá:
 
