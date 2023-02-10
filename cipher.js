@@ -6,25 +6,23 @@ const cipher = {
 export default cipher;
 
 //Função Encriptar
+
 function encode(offset, string) {
   if (offset === "" || string === "" || typeof string !== "string" || string === [] || offset === null || offset === "0") {
     throw new TypeError("Por favor, preencha todos os campos obrigatórios de acordo com as regras de funcionalidades");
   }
 
-  let senhaString = "";
+  let senhaEncriptada = "";
   const senha = string.toUpperCase();
   const chave = parseInt(offset);
-  //console.log(senha);
-  //console.log(typeof(chave));  
+  const primeiraLetra = "A".charCodeAt(0);
+  const tamanhoAlfabeto = 26;
   for (let i = 0; senha.length > i; i++) {
-    //console.log("char", string.charCodeAt(i));
-    const tabela = (senha.charCodeAt(i) - 65 + chave) % 26 + 65;
-    //console.log("calculo", tabela);       
-    const letra = String.fromCharCode(tabela);
-    //console.log("for", letra)    
-    senhaString += letra;
+    const tabela = (senha.charCodeAt(i) - primeiraLetra + chave) % tamanhoAlfabeto + primeiraLetra;      
+    const letra = String.fromCharCode(tabela);  
+    senhaEncriptada += letra;
   }
-  return senhaString;
+  return senhaEncriptada;
 }
 
 //Função Decriptar
@@ -33,19 +31,16 @@ function decode(offset, string) {
   if (offset === "" || string === "" || typeof string !== "string" || string === [] || offset === null || offset === "0") {
     throw new TypeError("Por favor, preencha todos os campos obrigatórios de acordo com as regras de funcionalidades");
   }
+
+  let senhaDecriptada = "";
   const senha = string.toUpperCase();
   const chave = parseInt(offset);
-  //console.log(senha);
-  //console.log(typeof(chave));  
-
-  let senhaString = "";
+  const primeiraLetra = "A".charCodeAt(0);
+  const tamanhoAlfabeto = 26;
   for (let i = 0; senha.length > i; i++) {
-    //console.log("char", string.charCodeAt(i));
-    const tabela = (senha.charCodeAt(i) + 65 - chave) % 26 + 65;
-    //console.log("calculo", tabela);
+    const tabela = (senha.charCodeAt(i) + primeiraLetra - chave) % tamanhoAlfabeto + primeiraLetra;
     const letra = String.fromCharCode(tabela);
-    //console.log("for", letra)
-    senhaString += letra;
+    senhaDecriptada += letra;
   }
-  return senhaString;
+  return senhaDecriptada;
 }
