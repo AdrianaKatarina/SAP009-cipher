@@ -14,65 +14,64 @@
   <header>
     <h1 class="cabecalho-nome">codifique</h1>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Sobre</a>
-      <a href="#">Regras e Funcionalidades</a>
-      <a href="#">Aplicativo</a>
+      <a href="#home">Home</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#regras">Regras e Funcionalidades</a>
+      <a href="#aplicativo">Aplicativo</a>
     </nav>
 
   </header>
 
   <main>
-    <section class="conteudo-principal">
-      <div class="p-div">
-        <h1 class="p-d-titulo">codifique</h1>
-        <h2 class="p-d-subtitulo">Suas senhas mais seguras!</h2>
-        <button class="p-d-botao">SAIBA MAIS</button>
+    <section id="home" class="home">
+      <div class="home-div">
+        <h1 class="home-titulo">codifique</h1>
+        <h2 class="home-subtitulo">Suas senhas mais seguras!</h2>
       </div>
-      <p class="p-paragrafo">Uma plataforma para você que <br> busca privacidade na sua vida,<br>
+      <p class="introducao">Uma plataforma para você que <br> busca privacidade na sua vida,<br>
         principalmente nesse meio digital, <br>onde muitas vezes precisamos de <br>contas com senhas mais fortes e
         <br>difíceis de
         memorizar.
       </p>
     </section>
 
-    <section class="conteudo-secundario">
-      <div class="conteudo-s-bloco">
-        <p class="conteudo-s-b-paragrafo">Atualmente, com o avanço da tecnologia, temos muitas
+    <section id="sobre" class="sobre">
+      <div class="sobre-div">
+        <p class="sobre-paragrafo">Atualmente, com o avanço da tecnologia, temos muitas
           vezes, <br>criar uma série de contas e senhas. </p>
-        <p class="conteudo-s-b-paragrafo">Para anotar essas informações muitos recorrem a agenda
+        <p class="sobre-paragrafo">Para anotar essas informações muitos recorrem a agenda
           física<br> ou algum arquivo no dispositivo digital.
         </p>
-        <p class="conteudo-s-b-paragrafo">Mas será que colocando essas informações estão corretamente
+        <p class="sobre-paragrafo">Mas será que colocando essas informações estão corretamente
           seguras?<br> Qualquer um que conseguir acessar, terão seus dados e assim podem <br>efetuar logins sem
           permissão.</p>
-        <p class="conteudo-s-b-paragrafo">Pensando nisso, a plataforma <strong>codifique</strong> será
+        <p class="sobre-paragrafo">Pensando nisso, a plataforma <strong>codifique</strong> será
           capaz de ajudar na
           forma <br>em que você guarda seus dados pessoais.
         </p>
-        <p class="conteudo-s-b-paragrafo">Um jeito de armarzenar suas informações de forma mais segura
+        <p class="sobre-paragrafo">Um jeito de armarzenar suas informações de forma mais segura
           em <br>qualquer lugar, seja algo físico, como agendas ou de forma digital.</p>
       </div>
       <img src="section2.svg" alt="Imagem de um notebook aberto com bloco de notas e celular ao lado">
     </section>
 
-    <section class="conteudo-terciario">
-      <h3 class="conteudo-t-titulo">REGRAS DE FUNCIONALIDADES</h3>
-      <h4 class="conteudo-t-subtitulo">Atualmente, temos algumas regras de funcionalidades:</h4>
+    <section id="regras" class="regras">
+      <h3 class="regras-titulo">REGRAS DE FUNCIONALIDADES</h3>
+      <h4 class="regras-subtitulo">Atualmente, temos algumas regras de funcionalidades:</h4>
       <div>
-        <p class="conteudo-t-paragrafo">1. No campo de texto, colocar apenas <strong>letras
-            maiúsculas</strong>
+        <p class="regras-paragrafo">1. No campo de texto, colocar apenas <strong>letras
+          maiúsculas</strong>
         </p>
-        <p class="conteudo-t-paragrafo">2. Informe um <strong>deslocamento</strong>, esse número precisa ser
+        <p class="regras-paragrafo">2. Informe um <strong>deslocamento</strong>, esse número precisa ser
           inteiro e positivo
         </p>
-        <p class="conteudo-t-paragrafo">3. Aperte o botão com a opção de <strong>encriptar</strong></p>
-        <p class="conteudo-t-paragrafo">4. Caso queira voltar, só apertar no botão <strong>decriptar</strong>
+        <p class="regras-paragrafo">3. Aperte o botão com a opção de <strong>encriptar</strong></p>
+        <p class="regras-paragrafo">4. Caso queira voltar, só apertar no botão <strong>decriptar</strong>
         </p>
       </div>
     </section>
 
-    <section class="aplicativo">
+    <section id="aplicativo" class="aplicativo">
 
       <form>
 
@@ -84,8 +83,8 @@
         <label for="chave" class="chave">Deslocamento: </label>
         <input placeholder="0" type="number" id="chave" name="chave" min="0" value="" required>
 
-        <button type="button" class="encriptar">ENCRIPTAR</button>
-        <button type="button" class="decriptar">DECRIPTAR</button>
+        <button type="button" class="encriptar botao">ENCRIPTAR</button>
+        <button type="button" class="decriptar botao">DECRIPTAR</button>
 
       </form>
     </section>

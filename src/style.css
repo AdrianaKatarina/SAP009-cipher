@@ -43,7 +43,7 @@ main {
     margin-bottom: 50px;
 }
 
-.conteudo-principal {
+.home {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -51,43 +51,25 @@ main {
     margin-top: 60px;
 }
 
-.p-div {
+.home-div {
     display: flex;
     flex-direction: column;
     gap: 32px;
     align-items: center;
 }
 
-.p-d-titulo {
+.home-titulo {
     font-weight: 800;
     font-size: 64px;
 }
 
-.p-d-subtitulo {
+.home-subtitulo {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 24px;
 }
 
-.p-d-botao {
-    width: 120px;
-    height: 40px;
-    border-style: solid;
-    border-color: #2BF2AB;
-    border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 750;
-    font-size: 15px;
-    color: #2BF2AB;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #2BF2AB;
-    color: #313030;
-}
-
-.p-paragrafo {
+.introducao {
     background-color: #000;
     border-style: solid;
     border-color: #000;
@@ -97,7 +79,7 @@ button:hover {
     padding: 10px;
 }
 
-.conteudo-secundario {
+.sobre {
     background-color: #2BF2AB;
     border-style: solid;
     border-color: #2BF2AB;
@@ -108,13 +90,13 @@ button:hover {
     padding: 20px;
 }
 
-.conteudo-s-bloco {
+.sobre-div {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.conteudo-s-b-paragrafo {
+.sobre-paragrafo {
     font-weight: 300;
     font-size: 20px;
 }
@@ -123,7 +105,7 @@ img {
     height: 370px;
 }
 
-.conteudo-terciario {
+.regras {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,17 +114,17 @@ img {
     padding: 20px;
 }
 
-.conteudo-t-titulo {
+.regras-titulo {
     font-weight: 700;
     font-size: 40px;
 }
 
-.conteudo-t-subtitulo {
+.regras-subtitulo {
     font-weight: 700;
     font-size: 20px;
 }
 
-.conteudo-t-paragrafo {
+.regras-paragrafo {
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 15px;
@@ -181,8 +163,7 @@ input {
     font-size: 20px;
 }
 
-.encriptar,
-.decriptar {
+.botao {
     width: 80px;
     height: 30px;
     border-style: solid;
@@ -193,6 +174,11 @@ input {
     font-size: 12px;
     color: #313030;
     cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #2BF2AB;
+    color: #313030;
 }
 
 .rodape {
