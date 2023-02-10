@@ -8,6 +8,8 @@
 * [4. Layout](#4-layout)
 * [5. Tecnologias utilizadas](#5-tecnologias-utilizadas)
 * [6. Implementações Futuras](#6-implementações-futuras)
+* [7. Desenvolvedora](#7-desenvolvedora)
+
 ***
 
 ## 1. Prefácio
@@ -37,8 +39,6 @@ a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
 ## 2. Sobre o projeto
 
-https://adrianakatarina.github.io/SAP009-cipher/
-
 Codifique foi a primeira aplicação web desenvolvida durante o bootcamp da Laboratória.
 
 Esta aplicação foi pensado num ambiente pessoal, para usuários que desejam guardar a privacidade para si. E principalmente, para pessoas que esquecem com facilidade, senhas de email, rede social ou diversas outras contas. Onde muitas vezes, acabam anotando em um caderno, agenda ou até mesmo em dispositivos digitais, as informações de senhas sem nenhuma restrição.
@@ -48,7 +48,9 @@ Então pensando nisso, foi desenvolvido uma aplicação web que permite ***encri
 **Em exemplo prático:**
 * Para quem gosta de anotar suas informações pessoais e importantes em uma agenda física.
   Poderá acessar o site codifique, encriptar sua nova senha e anotá-la na sua agenda.
-* Ou poderá criar sua senha a partir da decotificação ou codificação.  
+* Ou poderá criar sua senha a partir da decotificação ou codificação. 
+
+### Para acessar o projeto **[clique aqui](https://adrianakatarina.github.io/SAP009-cipher/)**
 
 ## 3. Considerações gerais
 
@@ -89,12 +91,15 @@ Logo na Página inicial terá algumas exlicações sobre o **codifique** e como 
 
 * HTML
 * CSS
-* Web APIs
+* Node.js
 * JavaScript
 * Git e GitHub
 
 ## 6. Implementações futuras
 
 * Permitir o uso de letras minúsculas e outros caracteres.
-* Funcionalidades dos demais botões da página web.
 * Adicionar uma página de contato para sugestões e melhorias.
+
+## 7. Desenvolvedora
+
+[Adriana Oliveira](https://www.linkedin.com/in/adriana-oliveira-39250a137/)
