@@ -62,7 +62,7 @@ Então pensando nisso, foi desenvolvido uma aplicação web que permite ***encri
 
 Logo na Página inicial terá algumas exlicações sobre o **codifique** e como utilizá-lo através das regras de funcionalidades.
 
-![Página Inicial](https://github.com/AdrianaKatarina/SAP009-cipher/blob/main/paginainicial.png)
+![Página Inicial](https://github.com/AdrianaKatarina/SAP009-cipher/blob/main/telainicial.png)
 
 **Uma interface que permite ao usuário:**
 
@@ -85,7 +85,7 @@ Logo na Página inicial terá algumas exlicações sobre o **codifique** e como 
   - Clique no botão decriptar.
   - Veja o resultado da sua senha decriptada.
 
-![Página Projeto](https://github.com/AdrianaKatarina/SAP009-cipher/blob/main/paginaprojeto.png)
+![Página Projeto](https://github.com/AdrianaKatarina/SAP009-cipher/blob/main/telaprojeto.png)
 
 ## 5. Tecnologias utilizadas
 
