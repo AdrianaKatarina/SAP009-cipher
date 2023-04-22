@@ -62,8 +62,7 @@
         <p class="regras-paragrafo">1. No campo de texto, colocar apenas <strong>letras
           maiúsculas</strong>
         </p>
-        <p class="regras-paragrafo">2. Informe um <strong>deslocamento</strong>, esse número precisa ser
-          inteiro e positivo
+        <p class="regras-paragrafo">2. Informe um número de <strong>deslocamento</strong> entre 1 e 99 
         </p>
         <p class="regras-paragrafo">3. Aperte o botão com a opção de <strong>encriptar</strong></p>
         <p class="regras-paragrafo">4. Caso queira voltar, só apertar no botão <strong>decriptar</strong>
@@ -81,7 +80,7 @@
         <br>
 
         <label for="chave" class="chave">Deslocamento: </label>
-        <input placeholder="0" type="number" id="chave" name="chave" min="0" value="" required>
+        <input placeholder="0" type="number" id="chave" name="chave" min="1" max = "99" value="" required>
 
         <button type="button" class="encriptar botao">ENCRIPTAR</button>
         <button type="button" class="decriptar botao">DECRIPTAR</button>
@@ -92,7 +91,7 @@
   </main>
 
   <footer class="rodape">
-    <p><strong>AK</strong> Copyright @ 2023 </p>
+    <p>Desenvolvido por <strong>Adriana Oliveira</strong> @ 2023 </p>
   </footer>
 
   <script src="index.js" type="module"></script>
