@@ -93,13 +93,18 @@ Logo na Página inicial terá algumas exlicações sobre o **codifique** e como 
 * CSS
 * Node.js
 * JavaScript
-* Git e GitHub
+* Git
+* GitHub
 
 ## 6. Implementações futuras
 
 * Permitir o uso de letras minúsculas e outros caracteres.
 * Adicionar uma página de contato para sugestões e melhorias.
+* Responsividade da Página.
 
 ## 7. Desenvolvedora
 
-[Adriana Oliveira](https://www.linkedin.com/in/adriana-oliveira-39250a137/)
+[Adriana Oliveira ](https://github.com/AdrianaKatarina)
+
+[![Linkedin Badge](https://img.shields.io/badge/-Adriana-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/adroliveira/)](https://www.linkedin.com/in/adroliveira/) 
+[![Gmail Badge](https://img.shields.io/badge/-dricakatarina@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:dricakatarina@gmail.com)](mailto:dricakatarina@gmail.com)
