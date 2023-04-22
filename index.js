@@ -1,9 +1,5 @@
 import cipher from './cipher.js';
 
-//console.log(cipher);
-
-//Botão Encriptar
-
 document.querySelector(".encriptar").addEventListener("click", function () {
   const campoTexto = document.querySelector("#mensagem").value;
   const desloca = document.querySelector("#chave").value;
@@ -12,8 +8,6 @@ document.querySelector(".encriptar").addEventListener("click", function () {
   mensagem.value = criptada;  
 });
 
-//Botão Decriptar
-
 document.querySelector(".decriptar").addEventListener("click", function () {
   const campoTexto = document.querySelector("#mensagem").value;
   const desloca = document.querySelector("#chave").value;
@@ -21,4 +15,3 @@ document.querySelector(".decriptar").addEventListener("click", function () {
   const mensagem = document.querySelector("#mensagem");
   mensagem.value = decriptada;
 });
-

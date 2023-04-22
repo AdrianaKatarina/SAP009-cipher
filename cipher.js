@@ -5,42 +5,46 @@ const cipher = {
 
 export default cipher;
 
-//Função Encriptar
-
 function encode(offset, string) {
   if (offset === "" || string === "" || typeof string !== "string" || string === [] || offset === null || offset === "0") {
-    throw new TypeError("Por favor, preencha todos os campos obrigatórios de acordo com as regras de funcionalidades");
+    throw new TypeError(alert("Por favor, preencha todos os campos obrigatórios de acordo com as regras de funcionalidades"));
   }
 
-  let senhaEncriptada = "";
-  const senha = string.toUpperCase();
   const chave = parseInt(offset);
-  const primeiraLetra = "A".charCodeAt(0);
-  const tamanhoAlfabeto = 26;
-  for (let i = 0; senha.length > i; i++) {
-    const tabela = (senha.charCodeAt(i) - primeiraLetra + chave) % tamanhoAlfabeto + primeiraLetra;      
-    const letra = String.fromCharCode(tabela);  
-    senhaEncriptada += letra;
-  }
-  return senhaEncriptada;
+  if(chave >= 0 && chave < 100) {
+    let senhaEncriptada = "";
+    const senha = string.toUpperCase();
+    const primeiraLetra = "A".charCodeAt(0);
+    const tamanhoAlfabeto = 26;
+    for (let i = 0; senha.length > i; i++) {
+      const tabela = (senha.charCodeAt(i) - primeiraLetra + chave) % tamanhoAlfabeto + primeiraLetra;      
+      const letra = String.fromCharCode(tabela);  
+      senhaEncriptada += letra;
+    }
+    return senhaEncriptada;
+  } else{
+    throw new TypeError(alert("Por favor, escolha deslocamento entre 1 e 99"));
+  }  
 }
-
-//Função Decriptar
 
 function decode(offset, string) {
   if (offset === "" || string === "" || typeof string !== "string" || string === [] || offset === null || offset === "0") {
-    throw new TypeError("Por favor, preencha todos os campos obrigatórios de acordo com as regras de funcionalidades");
+    throw new TypeError(alert("Por favor, preencha todos os campos obrigatórios de acordo com as regras de funcionalidades"));
   }
 
-  let senhaDecriptada = "";
-  const senha = string.toUpperCase();
   const chave = parseInt(offset);
-  const primeiraLetra = "A".charCodeAt(0);
-  const tamanhoAlfabeto = 26;
-  for (let i = 0; senha.length > i; i++) {
-    const tabela = (senha.charCodeAt(i) + primeiraLetra - chave) % tamanhoAlfabeto + primeiraLetra;
-    const letra = String.fromCharCode(tabela);
-    senhaDecriptada += letra;
-  }
-  return senhaDecriptada;
+  if(chave >= 0 && chave < 100) {
+    let senhaDecriptada = "";
+    const senha = string.toUpperCase();
+    const primeiraLetra = "A".charCodeAt(0);
+    const tamanhoAlfabeto = 26;
+    for (let i = 0; senha.length > i; i++) {
+      const tabela = (senha.charCodeAt(i) + primeiraLetra - chave) % tamanhoAlfabeto + primeiraLetra;
+      const letra = String.fromCharCode(tabela);
+      senhaDecriptada += letra;
+    }
+    return senhaDecriptada;
+  } else{
+    throw new TypeError(alert("Por favor, escolha deslocamento entre 1 e 99"));
+  }  
 }

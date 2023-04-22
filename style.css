@@ -156,6 +156,7 @@ textarea {
 
 input {
     text-align: center;
+    width: 180px;
 }
 
 .chave {
